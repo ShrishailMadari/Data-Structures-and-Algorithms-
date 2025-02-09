@@ -14,18 +14,19 @@ public class FindTheMax {
        /* if(scanner.hasNextInt()){
             System.out.println("Warning: extra numbers and been ignored");
         }else */
-        findTheMaxNumber(array,size);
+        int theMaxNumber = findTheMaxNumber(array, size);
+        System.out.println("the max number is: "+theMaxNumber);
 
 
     }
 
-    private static void findTheMaxNumber(int[] array, int size) {
+    private static int findTheMaxNumber(int[] array, int size) {
         int ans = 0;
         for (int i=0; i<size; i++){
             if (array[i]>ans){
                 ans = array[i];
             }
         }
-        System.out.println("the Max number is: "+ans);
+        return ans;
     }
 }
