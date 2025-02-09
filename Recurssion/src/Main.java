@@ -8,9 +8,9 @@ public class Main {
     }
 
     private static void printNumbers(int num) {
-        if (num == 0)
-            return;
-        System.out.println(num);
-        printNumbers(num-1);
+        if (num>0) {
+            System.out.println(num);
+            printNumbers(num-1);
+        }
     }
 }
