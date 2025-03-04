@@ -11,6 +11,7 @@ public class FindingSecondMaxElement {
             array[i] = scanner.nextInt();
         }
     int element = findTheSecondMaxElement(array,size);
+        System.out.println(element);
     }
 
     private static int findTheSecondMaxElement(int[] array, int size) {
