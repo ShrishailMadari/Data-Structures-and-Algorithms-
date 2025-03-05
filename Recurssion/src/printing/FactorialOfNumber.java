@@ -8,10 +8,14 @@ public class FactorialOfNumber {
         System.out.println("Enter the Number: ");
         int num = scanner.nextInt();
         int factorialOfNumber = factorialOfNumber(num);
-        System.out.println(factorialOfNumber);
+        System.out.println("Factorial Of Number is: "+factorialOfNumber);
     }
 
     private static int factorialOfNumber(int num) {
+        if (num < 0){
+            System.out.println("Wrong Number");
+            return -1;
+        }
         if(num == 0 || num == 1){
             return 1;
         }
