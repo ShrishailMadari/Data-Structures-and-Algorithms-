@@ -2,7 +2,7 @@ package printing;
 
 import java.util.Scanner;
 
-public class FactorialOfNumber {
+public class NthFactorialOfNumber {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the Number: ");
