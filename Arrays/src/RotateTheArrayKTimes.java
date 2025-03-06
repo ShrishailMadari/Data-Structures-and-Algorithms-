@@ -1,8 +1,8 @@
 import java.util.Arrays;
 
-public class RotateTheArray {
+public class RotateTheArrayKTimes {
     public static void main(String[] args) {
-        int array[] = {1,2,3,4,5,6,7};
+        int[] array = {1,2,3,4,5,6,7};
         int k = 3;
         reverseArray(array,k);
     }

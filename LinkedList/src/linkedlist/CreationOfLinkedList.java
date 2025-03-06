@@ -1,10 +1,10 @@
 package linkedlist;
 class Node{
     int data;
-    Node nextAddress;
+    NodeOne nextAddress;
 
-    public static Node display(Node head){
-        Node temp = head;
+    public static NodeOne display(NodeOne head){
+        NodeOne temp = head;
         while (temp!= null){
             System.out.println(temp.data+" ");
             temp = temp.nextAddress;
@@ -18,12 +18,12 @@ class Node{
 }
 public class CreationOfLinkedList {
     public static void main(String[] args) {
-        Node a = new Node(100);
-        Node b = new Node(200);
-        Node c = new Node(300);
-        Node d = new Node(400);
-        Node e = new Node(500);
-        Node f = new Node(600);
+        NodeOne a = new NodeOne(100);
+        NodeOne b = new NodeOne(200);
+        NodeOne c = new NodeOne(300);
+        NodeOne d = new NodeOne(400);
+        NodeOne e = new NodeOne(500);
+        NodeOne f = new NodeOne(600);
 
 
         a.nextAddress = b;

@@ -19,6 +19,7 @@ public class FindingSecondMaxElement {
         for (int i = 0; i < size; i++) {
 
             if (array[i] == ans) {
+
             }
             return 0;
         }
