@@ -18,9 +18,11 @@ public class MergeTwoArrays {
         for (int i = 0; i<size2; i++){
             arr2[i] = scanner.nextInt();
         }
+
         int length2 = arr2.length;
         int arr3[] = new int[length1+length2];
         int length3 = arr3.length;
+
         for (int i=0; i<length1; i++)
         {
             arr3[i] = arr1[i];

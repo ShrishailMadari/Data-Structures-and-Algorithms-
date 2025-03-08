@@ -1,5 +1,5 @@
 package linkedlist;
-class Node{
+class NodeOne{
     int data;
     NodeOne nextAddress;
 
@@ -12,7 +12,7 @@ class Node{
         return temp;
     }
 
-    public Node(int data) {
+    public NodeOne(int data) {
         this.data = data;
     }
 }
