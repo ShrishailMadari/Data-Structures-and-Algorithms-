@@ -13,29 +13,28 @@ public class ReverseUsingRecursion {
         st.push(4);
         System.out.println("Top is: "+st.peek());
         System.out.println("If i got 1 at Top then stack reversed");
-
+        System.out.println("Before reverse: "+st);
         reverseStack(st);
+        System.out.println("After reverse: "+st);
 
     }
 
     private static void reverseStack(Stack<Integer> st) {
-        if(st.size() == 0)
+        if(st.size() == 1)
             return;
-        Integer popped = st.pop();
+        Integer top = st.pop();
         reverseStack(st);
-        System.out.println(st);
-        st.push(popped);
-//        pushAtBottom(popped,st);
+        pushAtBottom(top,st);
     }
 
-    private static void pushAtBottom(Integer popped,Stack<Integer> st) {
-        if(st.size()==0) {
-            st.push(popped);
+    private static void pushAtBottom(Integer lastElement,Stack<Integer> st) {
+        if(st.isEmpty()) {
+            st.push(lastElement);
             return;
         }
-        Integer pop = st.pop();
-        pushAtBottom(pop,st);
-        st.push(pop);
+        Integer top = st.pop();
+        pushAtBottom(lastElement,st);
+        st.push(top);
     }
 
 }
