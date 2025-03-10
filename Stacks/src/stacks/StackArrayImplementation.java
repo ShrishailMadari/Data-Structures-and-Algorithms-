@@ -1,5 +1,5 @@
 package stacks;
-public class StackImplementation {
+public class StackArrayImplementation {
     static class Stack{
         int[] arr = new int[10];
         int index = 0;
