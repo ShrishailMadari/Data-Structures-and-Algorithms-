@@ -1,6 +1,6 @@
 package backtracing;
 
-public class RatInMaze {
+public class RatInMazeTwoPath {
     public static void main(String[] args) {
         int rows = 2;
         int cols = 3;
