@@ -74,15 +74,21 @@ public class Implementation {
 
           if (index == size()){
               insertAtEnd(data);
-          } else if (index == 0) {
-              insertAtHead(data);
-          }else {
+              return;
+          } else if (index == 0 ) {
+                insertAtHead(data);
+              return;
+          } else if (index<0 || index>size()) {
+              System.out.println("Wrong index: ");
+              return;
+          }
+
               for (int i = 0; i<index-1; i++){
                   temp1 = temp1.next;
               }
               temp2.next = temp1.next;
               temp1.next = temp2;
-          }
+
 
         }
     }
@@ -113,5 +119,6 @@ public class Implementation {
         System.out.println(list.size());
         list.insertAt(10,390);
         list.display();
+        list.insertAt(-1,230);
     }
 }

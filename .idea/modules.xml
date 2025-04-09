@@ -5,10 +5,13 @@
       <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/BackTracing/BackTracing.iml" filepath="$PROJECT_DIR$/BackTracing/BackTracing.iml" />
       <module fileurl="file://$PROJECT_DIR$/Binary Search/Binary Search.iml" filepath="$PROJECT_DIR$/Binary Search/Binary Search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BinaryTrees/BinaryTrees.iml" filepath="$PROJECT_DIR$/BinaryTrees/BinaryTrees.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Data-Structures-and-Algorithms-.iml" filepath="$PROJECT_DIR$/.idea/Data-Structures-and-Algorithms-.iml" />
       <module fileurl="file://$PROJECT_DIR$/Hashing/Hashing.iml" filepath="$PROJECT_DIR$/Hashing/Hashing.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode/LeetCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCode150/LeetCode150.iml" filepath="$PROJECT_DIR$/LeetCode150/LeetCode150.iml" />
       <module fileurl="file://$PROJECT_DIR$/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/LinkedList/LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Queues/Queues.iml" filepath="$PROJECT_DIR$/Queues/Queues.iml" />
       <module fileurl="file://$PROJECT_DIR$/Recurssion/Recurssion.iml" filepath="$PROJECT_DIR$/Recurssion/Recurssion.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sorting-Algorithms/Sorting-Algorithms.iml" filepath="$PROJECT_DIR$/Sorting-Algorithms/Sorting-Algorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/Stacks/Stacks.iml" filepath="$PROJECT_DIR$/Stacks/Stacks.iml" />
