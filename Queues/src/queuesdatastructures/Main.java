@@ -1,12 +1,12 @@
 package queuesdatastructures;
 
-import java.util.ArrayDeque;
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
         Queue<Integer> queue = new LinkedList<>() ;
+        Queue<Integer> queue1 = new PriorityQueue<>();
+        PriorityQueue<String> strings = new PriorityQueue<>();
         queue.add(100);
         queue.add(200);
         queue.add(300);
