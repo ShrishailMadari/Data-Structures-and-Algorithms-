@@ -1,4 +1,4 @@
-package floodfill;
+package matrixoperations;
 
 public class MatrixTraversal {
     public static void main(String[] args) {
@@ -24,6 +24,6 @@ public class MatrixTraversal {
         System.out.println("Rows: " + rows);
         System.out.println("Columns: " + cols);
         System.out.println("Total Elements: " + totalElements);
-        
+
     }
 }

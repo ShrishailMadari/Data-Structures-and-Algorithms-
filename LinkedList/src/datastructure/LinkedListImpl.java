@@ -22,13 +22,17 @@ public class LinkedListImpl {
         // Nodes Has to be Connected in the following way
 //        100->200->300->400->500
 
-        node1.nextNodeAddress = node2;
-        node2.nextNodeAddress = node3;
-        node3.nextNodeAddress = node4;
-        node4.nextNodeAddress = node5;
+        node1.nextNodeAddress = node2; // 100->200
+        node2.nextNodeAddress = node3; //100->200->300
+        node3.nextNodeAddress = node4;  //100->200->300->400
+        node4.nextNodeAddress = node5; // //100->200->300->400->500
+
+//        Verifying the addresses
         System.out.println(node1);
         System.out.println(node1.nextNodeAddress);
         System.out.println(node2);
+
+//        Verifying the data
         System.out.println(node1.data);
         System.out.println(node2.data);
         System.out.println(node1.nextNodeAddress.data);

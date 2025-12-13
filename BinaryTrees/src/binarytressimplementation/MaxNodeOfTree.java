@@ -1,5 +1,12 @@
 package binarytressimplementation;
-
+class Node{
+    int data;
+    Node left;
+    Node right;
+    Node(int data){
+        this.data = data;
+    }
+}
 public class MaxNodeOfTree {
     public static void main(String[] args) {
         Node root = new Node(100);
