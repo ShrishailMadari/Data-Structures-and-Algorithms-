@@ -7,7 +7,7 @@ class Node{
         this.data = data;
     }
 }
-public class MaxNodeOfTree {
+public class MaxMinSumHeightNodeOfTree {
     public static void main(String[] args) {
         Node root = new Node(100);
         Node a = new Node(200);
